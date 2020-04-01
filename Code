@@ -1,0 +1,9 @@
+input1='1234567890'
+input2=input1[::-1]
+output1=[]
+for i in range(len(input1)):
+    output1.append(input1[i])
+    output1.append(input2[i])
+print(''.join(output1[:len(input1)]))
+
+#output : 1029384756
